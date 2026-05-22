@@ -1,0 +1,103 @@
+body {
+    margin: 0 ;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+    position: sticky;
+    z-index: 100;
+    margin: 5px;
+}
+
+nav .kiri {
+    font-size: 18px;
+    font-weight: bold;
+    
+    display: flex;
+    gap: 20px;
+}
+
+nav .kanan {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .kanan a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    display: flex;
+    background-color: #007acc;
+    margin: 5px;
+}
+
+.home .kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.home .kanan {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.home .kanan img {
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    padding-right: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    margin: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #007acc;
+    color: white;
+}
+
+.about .button{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.home .kiri .button {
+    text-decoration: none;
+    align-items: center;
+    color: blue;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+}
